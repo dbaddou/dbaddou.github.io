@@ -1,7 +1,7 @@
-//monTitre.textContent = 'Encore Bonjour tout le monde!!';
 var monBouton = document.querySelector('button');
 //var monTitre = document.querySelector('h1');
 var monTitre = document.querySelector('h1');
+monTitre.textContent = 'Encore Bonjour tout le monde!!';
 
 function definirNomUtilisateur() {
   var monNom = prompt('Veuillez saisir votre nom.');
